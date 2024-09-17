@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar--items {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding-right: 20px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}
+.social--button {
+  display: flex;
+  background-color: transparent;
+  border: 0;
+  height: 60px;
+  width: 60px;
+}
+.social--image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
