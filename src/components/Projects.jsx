@@ -2,11 +2,11 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
-export default function Home() {
+export default function Projects() {
     return (
-        <div className="home">
+        <div className="projects">
             <Navbar />
-            <h1>This is the home page</h1>
+            <h2>This is the projects page</h2>
             <Footer />
         </div>
     )
