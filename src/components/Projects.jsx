@@ -12,6 +12,16 @@ export default function Projects() {
                 vidID="pkYCsXRkFog"
                 desc="description for snaptunes"
             />
+            <Project
+                title="Objects"
+                vidID="L_bxK2eoR0I"
+                desc="description for objects"
+            />
+            <Project
+                title="AR Product Inspector"
+                vidID="rEIonGe8i0Q"
+                desc="description for AR prototype"
+            />
             <Footer />
         </div>
     )
