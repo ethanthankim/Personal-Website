@@ -5,7 +5,7 @@ export default function Project(props) {
         <div className="project">
             <h2>{props.title}</h2>
             <p>{props.caption}</p>
-            {props.link && <a href={props.link} target="_blank">{props.link}</a>}
+            {props.link && <a href={props.link} target="_blank" rel="noreferrer">{props.link}</a>}
             <div className="project--video">
                 <iframe
                     src={`https://youtube.com/embed/${props.vidID}`}

@@ -109,3 +109,12 @@ code {
   top: 0;
   left: 0;
 }
+.contact--content {
+  margin: auto;
+  max-width: 70%;
+}
+.contact--email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
