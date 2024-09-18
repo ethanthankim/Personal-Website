@@ -90,3 +90,22 @@ code {
 .education--notes {
   margin-top: 0;
 }
+.project {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.project--video {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.project--video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

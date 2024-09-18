@@ -48,6 +48,7 @@ export default function About() {
                 degree="Bachelor of Engineering: Engineering Physics and Society"
                 gpa="4.00"
                 dates="Sept 2014 - Dec 2015"
+                note="Awarded Dr. H.L. Hooker Scholarship of $1500 after first year"
             />
             <Footer />
         </div>
