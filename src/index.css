@@ -47,3 +47,46 @@ code {
   width: 100%;
   object-fit: contain;
 }
+.about > h1 {
+  margin: auto;
+  max-width: 70%;
+  padding-bottom: 50px;
+}
+.about--headshot {
+  margin: auto;
+  max-width: 300px;
+}
+.about--headshot > img {
+  display: flex;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.about--bio {
+  margin: auto;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 70%;
+}
+.education {
+  margin: auto;
+  max-width: 70%;
+  font-size: small;
+}
+.education > h2 {
+  margin: 0;
+}
+.education--subheading {
+  display: flex;
+  justify-content: space-between;
+}
+.education--degree {
+  font-style: italic;
+}
+.education--subheading > h3 {
+  font-weight: 400;
+}
+.education--notes {
+  margin-top: 0;
+}
