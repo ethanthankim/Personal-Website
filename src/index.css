@@ -31,6 +31,15 @@ code {
   display: flex;
   flex-direction: column;
 }
+.home--languages {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 30%;
+  grid-gap: 10px;
+}
+.home--languages > img {
+  max-width: 100%;
+}
 .socials {
   display: flex;
   gap: 10px;

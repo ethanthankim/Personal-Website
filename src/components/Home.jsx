@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import Icon from "./Icon"
 import {Link} from "react-router-dom"
 
 export default function Home() {
@@ -19,7 +20,18 @@ export default function Home() {
                 </Link>
                 <h3>Experienced in:</h3>
                 <div className="home--languages">
-                    <p>language logos</p>
+                    <Icon name="python"/>
+                    <Icon name="javascript"/>
+                    <Icon name="html-icon"/>
+                    <Icon name="css-icon"/>
+                    <Icon name="react"/>
+                    <Icon name="node"/>
+                    <Icon name="microsoft"/>
+                    <Icon name="java"/>
+                    <Icon name="unity"/>
+                    <Icon name="c"/>
+                    <Icon name="c++"/>
+                    <Icon name="c-sharp"/>
                 </div>
             </div>
             <div className="home--projects">
@@ -36,6 +48,9 @@ export default function Home() {
                 <Link to="/Videos" className="link">
                     <button>View Films</button>
                 </Link>
+                <video muted autoPlay loop playsInline>
+                    <source src={`${process.env.PUBLIC_URL}/videos/LeslieSpit.mp4`} type="video/mp4"/>
+                </video>
             </div>
             <Footer />
         </div>
